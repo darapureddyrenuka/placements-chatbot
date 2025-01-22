@@ -1,0 +1,95 @@
+/* General body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fc;
+    margin: 0;
+    padding: 0;
+}
+
+/* Wrapper for the whole chatbot */
+.chat-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #f4f7fc;
+}
+
+/* Chat container box */
+.chat-container {
+    width: 100%;
+    width: 1300px;
+    height:650px;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+/* Chat box (where messages appear) */
+.chat-box {
+    height: 500px;
+    padding: 10px;
+    overflow-y: auto;
+    background-color: #fafafa;
+    border-radius: 8px solid #ddd;
+    font-size: 14px;
+}
+
+/* User input area */
+.user-input-container {
+    display: flex;
+    padding: 20px;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+}
+
+/* User input field */
+.user-input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+/* Ask button */
+.ask-button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.ask-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Chat message style */
+.chat-message {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 80%;
+}
+
+/* Style for user messages */
+.user-message {
+    background-color: #e2f3e5;
+    align-self: flex-start;
+}
+
+/* Style for bot messages */
+.bot-message {
+    background-color: #fce4d6;
+    align-self: flex-end;
+}
+

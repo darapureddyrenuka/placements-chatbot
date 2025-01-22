@@ -1,0 +1,125 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+/* Left Section */
+.left-section {
+    flex: 1;
+    background: #d2b48c; /* Light brown */
+    color: #4f4f4f; /* Darker shade for contrast */
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.left-section h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.left-section p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Right Section */
+.right-section {
+    flex: 1;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.login-box {
+    width: 80%;
+    max-width: 350px;
+    text-align: center;
+    
+}
+
+.login-box h2 {
+    font-size: 24px;
+    color: #8b4513; /* SaddleBrown for a warm tone */
+    margin-bottom: 30px;
+    font-weight: bold;
+    
+}
+
+.input-group {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background: #f9f9f9;
+}
+
+.input-group .icon {
+    margin-right: 10px;
+    font-size: 18px;
+    color: #777;
+}
+
+.input-group input {
+    border: none;
+    outline: none;
+    background: transparent;
+    flex: 1;
+    font-size: 16px;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.actions a {
+    text-decoration: none;
+    color: #8b4513; /* SaddleBrown for links */
+    font-weight: bold;
+}
+
+.actions a:hover {
+
+    text-decoration: none;
+}
+
+.login-btn {
+    background: linear-gradient(135deg, #d2b48c, #f5deb3); /* Light brown and biscuit mix */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  
+}
+
+.login-btn:hover {
+    opacity: 0.9;
+    
+}

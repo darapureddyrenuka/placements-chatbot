@@ -1,0 +1,34 @@
+{
+  "placements": [
+    {
+      "company": "Company tata",
+      "students": [
+        { "name": "John Doe", "salary": 8.5 },
+        { "name": "Jane Smith", "salary": 9.2 }
+      ]
+    },
+    {
+      "company": "Company Amazon",
+      "students": [
+        { "name": "Alice Brown", "salary": 7.0 },
+        { "name": "Bob White", "salary": 10.0 }
+      ]
+    },
+    {
+      "company": "Company TCS",
+      "students": [
+        { "name": "Charlie Green", "salary": 12.5 },
+        { "name": "David Black", "salary": 11.0 }
+      ]
+    },
+    {
+      "company": "Company infosys",
+      "students": [
+        { "name": "Charlie Green", "salary": 10.5 },
+        { "name": "David Black", "salary": 15.0 },
+        { "name": "ramu", "salary": 19.0 }
+
+      ]
+    }
+  ]
+}

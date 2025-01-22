@@ -1,5 +1,3 @@
-# placements-chatbot
-placements-chatbot
 Placement Query Chatbot
 The Placement Query Chatbot is a lightweight, interactive chatbot designed to assist students with their placement-related queries. It aims to streamline the process of getting answers to frequently asked questions about placements, making it easier for students to prepare and understand the placement process.
 
@@ -94,5 +92,4 @@ Fork the repository and submit a pull request with improvements or new features.
 Report any issues or bugs in the Issues section of this repository.
 📜 License
 This project is open-source and available under the MIT License.
-
 
